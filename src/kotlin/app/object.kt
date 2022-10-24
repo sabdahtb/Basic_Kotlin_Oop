@@ -1,6 +1,7 @@
 package app
 
 import data.Car
+import data.NewPerson
 import data.Person
 
 fun main() {
@@ -21,7 +22,11 @@ fun main() {
 //    call a second constructor
     val toyota = Car("My car")
     println(toyota.carName)
-//    Secondary constructors 2
-//    My car
+//    Secondary constructors 2 [PRINTLN]
+//    My car [PRINTLN]
 
+    val newPerson = NewPerson("mike", 12)
+    newPerson.age = 13
+    println("${newPerson.userName} is ${newPerson.age}")
+//    mike is 13 [PRINTLN]
 }
