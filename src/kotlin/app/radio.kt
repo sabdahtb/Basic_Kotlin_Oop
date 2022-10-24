@@ -1,5 +1,6 @@
 package app
 
+import data.NewsRadio
 import data.Radio
 
 fun main() {
@@ -11,4 +12,8 @@ fun main() {
     radio.initRadio()
     println(radio.name)
 //    RCC [PRINTLN]
+
+    val newRadio = NewsRadio("katty")
+    newRadio.sayHello("black")
+//    hello black my name is katty [PRINTLN]
 }
