@@ -1,5 +1,6 @@
 package app
 
+import data.Company
 import data.Laptop
 import data.SmartPhone
 
@@ -35,4 +36,13 @@ fun main() {
     printWhen(Laptop("lenovo"))
     printWhen(SmartPhone("asus", ""))
 //    Same output
+
+    val company1 = Company("Rave")
+    val company2 = Company("Rave")
+    val company3 = Company("Raven")
+
+//    True because has use equals fun
+    println(company1 == company2)
+//    False
+    println(company1 == company3)
 }

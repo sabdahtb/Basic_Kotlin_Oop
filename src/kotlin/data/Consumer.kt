@@ -13,3 +13,12 @@ class Premium: Consumer {
 class Executive(name: String, balance: Long) : Consumer(name, "Executive", 0) {
     constructor(name: String): this(name, 0)
 }
+
+class Company(val name: String) {
+    override fun equals(other: Any?): Boolean {
+        return when(other) {
+            is Company -> other.name == this.name
+            else -> false
+        }
+    }
+}
