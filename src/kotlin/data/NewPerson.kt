@@ -7,4 +7,12 @@ class NewPerson(var userName: String, var age: Int) {
     fun callMe() {
         println("hello $userName")
     }
+
+    fun sayHello(name: String): Unit {
+        println("hello $name")
+    }
+
+    fun sayHello(name: String, age: Int): Unit {
+        println("hello $name, you are $age years old now")
+    }
 }

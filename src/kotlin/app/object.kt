@@ -33,4 +33,8 @@ fun main() {
 //    call a function inside class
     newPerson.callMe()
 //    hello mike [PRINTLN]
+
+//    call function overload
+    newPerson.sayHello("Mike", 12)
+//    hello Mike, you are 12 years old now [PRINTLN]
 }
