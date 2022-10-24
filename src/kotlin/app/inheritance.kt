@@ -1,9 +1,6 @@
 package app
 
-import data.Manager
-import data.President
-import data.Rectangle
-import data.Square
+import data.*
 
 fun main() {
     val manager = Manager("kyle")
@@ -23,4 +20,18 @@ fun main() {
 //    call super fun
     val square = Square()
     square.printName()
+
+//    implement super.constructor
+    val premiumCustomer = Premium("kite", 0)
+    println(premiumCustomer.name)
+//    kite [PRINTLN]
+
+//    super for executive
+    val executiveCustomer = Executive("kite")
+    println(executiveCustomer.name)
+//    kite [PRINTLN]
+
+//    Any class
+    println(executiveCustomer.toString())
+//    data.Executive@6b884d57 [PRINTLN]
 }
