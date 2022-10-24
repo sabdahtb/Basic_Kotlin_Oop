@@ -38,4 +38,9 @@ fun main() {
 
 //    implement anonymous class
     fireAction(SampleAction())
+
+    val man = Gender.MALE
+    val woman = Gender.FEMALE
+
+    println("$man, $woman")
 }
