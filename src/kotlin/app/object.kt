@@ -29,4 +29,8 @@ fun main() {
     newPerson.age = 13
     println("${newPerson.userName} is ${newPerson.age}")
 //    mike is 13 [PRINTLN]
+
+//    call a function inside class
+    newPerson.callMe()
+//    hello mike [PRINTLN]
 }
