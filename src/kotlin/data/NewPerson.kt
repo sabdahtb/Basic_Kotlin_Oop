@@ -15,4 +15,9 @@ class NewPerson(var userName: String, var age: Int) {
     fun sayHello(name: String, age: Int): Unit {
         println("hello $name, you are $age years old now")
     }
+
+//    implement this
+    fun sayThis(userName: String) {
+        println("userName from prop = $userName, userName from class = ${this.userName}")
+    }
 }

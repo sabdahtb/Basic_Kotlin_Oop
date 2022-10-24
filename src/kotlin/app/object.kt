@@ -37,4 +37,7 @@ fun main() {
 //    call function overload
     newPerson.sayHello("Mike", 12)
 //    hello Mike, you are 12 years old now [PRINTLN]
+
+    newPerson.sayThis("Michael")
+//    userName from prop = Michael, userName from class = mike [PRINTLN]
 }
