@@ -2,6 +2,12 @@ package data
 
 import java.util.*
 
+data class NewStudent(
+    val name: String,
+    val age: Int,
+    val school: String
+)
+
 class Student(val name: String, val age: Int)
 
 fun Student.sayHello(name: String) {
