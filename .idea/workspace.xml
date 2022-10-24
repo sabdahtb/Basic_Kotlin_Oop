@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22cea004-3d44-480a-a328-d27bc0b0383c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kotlin/app/manyObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlin/data/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlin/data/Base.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/app/manyObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin/app/manyObject.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +15,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin Interface" />
         <option value="Enum" />
         <option value="Kotlin Object" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
